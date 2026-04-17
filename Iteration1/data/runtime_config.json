@@ -1,0 +1,12 @@
+{
+  "deployment_mode": "local",
+  "yolo_backend": "ultralytics",
+  "yolo_model_path": "yolo26s-pose.pt",
+  "qwen_backend": "local",
+  "qwen_endpoint": "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+  "qwen_api_key": "sk-ee8cae90000f40058d0240d01012c59b",
+  "qwen_model": "qwen-vl-max-latest",
+  "request_timeout_seconds": 6.0,
+  "video_source_path": "",
+  "roi_expand_ratio": 0.2
+}
