@@ -1,4 +1,4 @@
-"""Real-time training page for V3 configurable inference workflow."""
+"""Real-time training page for iteration 1 configurable inference workflow."""
 
 from time import monotonic
 
@@ -109,7 +109,7 @@ class RealtimeTrainingPage(BasePage):
 
         grid = QGridLayout()
         self.camera_label = QLabel(
-            "Video stream area (V3)\n"
+            "Video stream area (Iteration 1)\n"
             "Select a local training video; if unavailable, mock stream will be used."
         )
         self.camera_label.setAlignment(Qt.AlignCenter)

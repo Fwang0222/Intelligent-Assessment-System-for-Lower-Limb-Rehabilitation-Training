@@ -16,7 +16,7 @@ class RehabMainWindow(FluentWindow):
         super().__init__(parent)
         self.db = db
         self.user = user
-        self.setWindowTitle("Lower-Limb Rehabilitation Intelligent Assessment System - V3")
+        self.setWindowTitle("Lower-Limb Rehabilitation Intelligent Assessment System - Iteration 1")
         self.resize(1400, 900)
         self.init_pages()
 
