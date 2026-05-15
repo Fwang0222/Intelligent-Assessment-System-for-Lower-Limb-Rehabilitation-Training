@@ -1,0 +1,18 @@
+{
+  "deployment_mode": "local",
+  "data_backend": "sqlite",
+  "sqlite_cache_path": "data/rehab_system.db",
+  "remote_doctor_access_enabled": true,
+  "backup_dir": "data/backups",
+  "report_export_dir": "data/exports",
+  "audit_retention_days": 90,
+  "yolo_backend": "ultralytics",
+  "yolo_model_path": "yolo26s-pose.pt",
+  "qwen_backend": "cloud",
+  "qwen_endpoint": "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+  "qwen_api_key": "sk-ee8cae90000f40058d0240d01012c59b",
+  "qwen_model": "qwen-vl-max-latest",
+  "request_timeout_seconds": 6.0,
+  "video_source_path": "",
+  "roi_expand_ratio": 0.2
+}
