@@ -1,0 +1,21 @@
+{
+  "settings_version": "0.0.6",
+  "datasets_dir": "E:\\Python\\Projects\\rehab_ai_v1_english_full\\rehab_ai_v1\\datasets",
+  "weights_dir": "weights",
+  "runs_dir": "runs",
+  "uuid": "cf0b875a7e9f8c6eb827d7a8ec5ac9a80e50b5419a458509aba77ee01df5361d",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "hub": true,
+  "mlflow": true,
+  "neptune": true,
+  "raytune": true,
+  "tensorboard": false,
+  "wandb": false,
+  "vscode_msg": true,
+  "openvino_msg": true
+}
